@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Owner profile</title>
+  <link rel="icon" href="images/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+  <!-- Floating Expandable Social Button -->
+<div class="fab-container">
+  <button class="fab-main" onclick="toggleSocialFab(this)">
+    <i class="fas fa-plus"></i>
+  </button>
+
+  <!-- Expandable social icons -->
+  <div class="fab-icons">
+    <!-- Facebook -->
+<a href="https://facebook.com/nihabali01" target="_blank" title="Facebook">
+  <i class="fab fa-facebook"></i>
+</a>
+
+<!-- Messenger -->
+<a href="https://m.me/nihabali01" target="_blank" title="Messenger">
+  <i class="fab fa-facebook-messenger"></i>
+</a>
+
+<!-- Telegram -->
+<a href="https://telegram.me/Nihab_1" target="_blank" title="Telegram">
+  <i class="fab fa-telegram"></i>
+</a>
+
+<!-- X (Twitter) -->
+<a href="https://x.com/nihabali01" target="_blank" title="X / Twitter">
+  <i class="fab fa-x-twitter"></i>
+</a>
+
+<!-- GitHub -->
+<a href="https://github.com/nihabali" target="_blank" title="GitHub">
+  <i class="fab fa-github"></i>
+</a>
+
+<!-- LinkedIn -->
+<a href="https://bd.linkedin.com/in/cr-x-nihab-120392245" target="_blank" title="LinkedIn">
+  <i class="fab fa-linkedin"></i>
+</a>
+
+<!-- Mastodon -->
+<a href="https://mastodon.social/@nihab" target="_blank" title="Mastodon">
+  <i class="fab fa-mastodon"></i>
+</a>
+
+<!-- Discord -->
+<a href="https://discord.gg/dA6UhVmQ" target="_blank" title="Discord">
+  <i class="fab fa-discord"></i>
+</a>
+  </div>
+</div>
+<body>
+  <div class="container">
+    <div class="cover-photo"></div>
+
+    <div class="card">
+      <div class="card-top-buttons">
+        <button class="icon-btn" onclick="toggleMode()" aria-label="Toggle Theme">
+          <i id="theme-icon" class="fas fa-sun"></i>
+        </button>
+        <a href="info.txt" download class="icon-btn" aria-label="Download Info">
+          <i class="fas fa-download"></i>
+        </a>
+        <button class="icon-btn" onclick="sharePage()" aria-label="Share Page">
+          <i class="fas fa-share-alt"></i>
+        </button>
+      </div>
+
+      <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <h2>Nihab Ali</h2>
+      <p class="title">BIO</p>
+      <p class="about">Anime lover with a chill vibe.</p>
+
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> +8801930486007</p>
+        <p><i class="fas fa-envelope"></i> nihabcr@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Bheramara, Dhaka, Bangladesh</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com/nihabali01" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://anilist.co/user/nihab" target="_blank"><i class="fa-solid fa-rss"></i></a>
+        <a href="https://wa.me/8801930486007" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+
+      <div class="buttons">
+        <a href="tel:+8801930486007" class="btn"><i class="fas fa-phone"></i> Call</a>
+        <a href="mailto:nihabcr@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+        <a href="sms:+8801930486007?body=Hello! 👋" class="btn" aria-label="Send SMS">
+
+  <i class="fas fa-comments"></i>
+
+        </a>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <h3>ABOUT ME</h3>
+      <p>Hey, I'm Nihab — a curious mind with a big love for anime, storytelling, coding, and design. I'm the kind of person who overthinks a lot and usually stays quiet, but deep down I wish to make many friends. Conversations aren't always easy for me, but I enjoy thinking deeply and spending time in my own world. My dream? To become truly rich — not just in thoughts, but in life too.</section>
+
+    <section class="anime-section">
+  <h3><i class="fa-solid fa-shield-cat"></i> Anime Highlights </h3>
+
+      <h2 class="section-header">
+  <i class="fa-solid fa-award"></i> Anime Award
+      </h2>
+      
+  <!-- Anime Badges -->
+  <div class="scroll-wrapper">
+    <div class="scroll-row">
+      <a href="https://anilist.co/anime/21/ONE-PIECE/" class="badge" target="_blank">
+        <i class="fas fa-anchor"></i> One Piece
+      </a>
+      <a href="https://anilist.co/anime/20/Naruto/" class="badge" target="_blank">
+        <i class="fas fa-wind"></i> Naruto
+      </a>
+      <a href="https://anilist.co/anime/21519/Your-Name/" class="badge" target="_blank">
+        <i class="fa-solid fa-meteor"></i> Your Name.
+      </a>
+      <a href="https://anilist.co/anime/1535/Death-Note/" class="badge" target="_blank">
+        <i class="fas fa-skull"></i> Death Note
+      </a>
+      <a href="https://anilist.co/anime/151807/Solo-Leveling/" class="badge" target="_blank">
+        <i class="fas fa-bolt"></i> Solo Leveling
+      </a>
+      <a href="https://anilist.co/anime/105310/Fire-Force/" class="badge" target="_blank">
+        <i class="fas fa-fire"></i> Fire Force
+      </a>
+      <a href="https://anilist.co/anime/21459/My-Hero-Academia/" class="badge" target="_blank">
+        <i class="fas fa-shield-alt"></i> My Hero Academia
+      </a>
+      <a href="https://anilist.co/anime/101348/Vinland-Saga/" class="badge" target="_blank">
+        <i class="fa-solid fa-snowflake"></i> Vinland Saga
+      </a>
+      <a href="https://anilist.co/anime/137822/BLUE-LOCK/" class="badge" target="_blank">
+        <i class="fas fa-futbol"></i> Blue Lock
+      </a>
+      <a href="https://anilist.co/anime/16498/Attack-on-Titan/" class="badge" target="_blank">
+        <i class="fa-solid fa-tags"></i> Attack on Titan
+      </a>
+    </div>
+  </div>
+      <h2 class="section-header">
+  <i class="fa-solid fa-heart"></i> Favourite Character
+      </h2>
+<!-- Character Cards -->
+<div class="scroll-wrapper">
+  <div class="scroll-row">
+    <a href="https://anilist.co/character/17/Naruto-Uzumaki" class="char-card" target="_blank">
+      <img src="images/character/naruto.webp" alt="Naruto Uzumaki" />
+      <div class="char-name">Naruto Uzumaki dgkkkfkkckckckckfmcvv</div>
+    </a>
+
+    <a href="https://anilist.co/character/14/Itachi-Uchiha" class="char-card" target="_blank">
+  <img src="images/character/itachi.webp" alt="Itachi Uchiha" />
+  <div class="char-name">Itachi Uchiha</div>
+</a>
+
+<a href="https://anilist.co/character/162969/Seishirou-Nagi" class="char-card" target="_blank">
+  <img src="images/character/nagi.webp" alt="Seishirou Nagi" />
+  <div class="char-name">Seishirou Nagi</div>
+</a>
+
+<a href="https://anilist.co/character/140856/Yoichi-Isagi" class="char-card" target="_blank">
+  <img src="images/character/isagi.webp" alt="Yoichi Isagi" />
+  <div class="char-name">Yoichi Isagi</div>
+</a>
+
+<a href="https://anilist.co/character/129928/JinU-Seong" class="char-card" target="_blank">
+  <img src="images/character/jin.webp" alt="Jin-U Seong" />
+  <div class="char-name">Jin-U Seong</div>
+</a>
+
+<a href="https://anilist.co/character/73935/Saitama" class="char-card" target="_blank">
+  <img src="images/character/saitama.webp" alt="Saitama" />
+  <div class="char-name">Saitama</div>
+</a>
+
+<a href="https://anilist.co/character/123285/Asta" class="char-card" target="_blank">
+  <img src="images/character/asta.webp" alt="Asta" />
+  <div class="char-name">Asta</div>
+</a>
+
+<a href="https://anilist.co/character/145341/Manjirou-Sano" class="char-card" target="_blank">
+  <img src="images/character/manjirou.webp" alt="Manjirou Sano" />
+  <div class="char-name">Manjirou Sano</div>
+</a>
+
+<a href="https://anilist.co/character/222593/Ken-Takakura" class="char-card" target="_blank">
+  <img src="images/character/ken.webp" alt="Ken Takakura" />
+  <div class="char-name">Ken Takakura</div>
+</a>
+
+<a href="https://anilist.co/character/137260/Gabimaru" class="char-card" target="_blank">
+  <img src="images/character/gabimaru.webp" alt="Gabimaru" />
+  <div class="char-name">Gabimaru</div>
+</a>
+
+<a href="https://anilist.co/character/80/Light-Yagami" class="char-card" target="_blank">
+  <img src="images/character/light.webp" alt="Light Yagami" />
+  <div class="char-name">Light Yagami</div>
+</a>
+
+<a href="https://anilist.co/character/130715/Arthur-Boyle" class="char-card" target="_blank">
+  <img src="images/character/arthur.webp" alt="Arthur Boyle" />
+  <div class="char-name">Arthur Boyle</div>
+</a>
+
+<a href="https://anilist.co/character/130848/Benimaru-Shinmon" class="char-card" target="_blank">
+  <img src="images/character/benimaru.webp" alt="Benimaru Shinmon" />
+  <div class="char-name">Benimaru Shinmon</div>
+</a>
+
+<a href="https://anilist.co/character/135385/Joker" class="char-card" target="_blank">
+  <img src="images/character/joker.webp" alt="Joker" />
+  <div class="char-name">Joker</div>
+</a>
+
+<a href="https://anilist.co/character/64769/Shouyou-Hinata" class="char-card" target="_blank">
+  <img src="images/character/hinata.webp" alt="Shouyou Hinata" />
+  <div class="char-name">Shouyou Hinata</div>
+</a>
+
+<a href="https://anilist.co/character/64771/Tobio-Kageyama" class="char-card" target="_blank">
+  <img src="images/character/kageyama.webp" alt="Tobio Kageyama" />
+  <div class="char-name">Tobio Kageyama</div>
+</a>
+
+<a href="https://anilist.co/character/40/Luffy-D-Monkey" class="char-card" target="_blank">
+  <img src="images/character/luffy.webp" alt="Luffy D. Monkey" />
+  <div class="char-name">Luffy D. Monkey</div>
+</a>
+
+<a href="https://anilist.co/character/62/Zoro-Roronoa" class="char-card" target="_blank">
+  <img src="images/character/zoro.webp" alt="Zoro Roronoa" />
+  <div class="char-name">Zoro Roronoa</div>
+</a>
+
+<a href="https://anilist.co/character/10138/Thorfinn-Karlsefni" class="char-card" target="_blank">
+  <img src="images/character/thorfinn.webp" alt="Thorfinn Karlsefni" />
+  <div class="char-name">Thorfinn Karlsefni</div>
+</a>
+
+<a href="https://anilist.co/character/40882/Eren-Yeager" class="char-card" target="_blank">
+  <img src="images/character/eren.webp" alt="Eren Yeager" />
+  <div class="char-name">Eren Yeager</div>
+</a>
+
+<a href="https://anilist.co/character/45627/Levi" class="char-card" target="_blank">
+  <img src="images/character/levi.webp" alt="Levi" />
+  <div class="char-name">Levi</div>
+</a>
+    <!-- আরও কার্ড চাইলে এখানে এড করো -->
+  </div>
+</div>
+
+    <footer class="footer">
+      © Nihab 2025
+    </footer>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+  </html>
