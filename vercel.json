@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node scripts/build-env.mjs --dist dist",
+  "outputDirectory": "dist",
+  "framework": null
+}
